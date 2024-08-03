@@ -21,7 +21,8 @@
 
  - controllers
    - fileUpload.js
-     - handler function
+     - handler function on local-fileupload
+     - handler function on imageUpload
    - make files name folder so that our file is uploaded at time of testing
 
  - models
