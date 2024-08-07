@@ -14,6 +14,11 @@ app.use(fileupload({
     tempFileDir : '/tmp/'
 }));
 
+// app.use(fileupload());
+// app.use(fileupload({
+//     limits: { fileSize: 5 * 1024 * 1024 },
+//   }));
+
 // db connect
 const db = require("./config/database");
 db.connect();
